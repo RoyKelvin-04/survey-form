@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <h1>Survey Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="place">Place:</label>
+        <input type="text" id="place" name="place" required>
+
+        <label>Age:</label>
+        <input type="radio" id="age1" name="age" value="Under 18" required>
+        <label for="age1">Under 18</label>
+        <input type="radio" id="age2" name="age" value="18-24">
+        <label for="age2">18-30</label>
+        <input type="radio" id="age3" name="age" value="25-34">
+        <label for="age3">31-45</label>
+        <input type="radio" id="age4" name="age" value="35-44">
+        <label for="age4">46-60</label>
+        <input type="radio" id="age5" name="age" value="45 and above">
+        <label for="age5">61 and above</label>
+
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
