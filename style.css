@@ -13,9 +13,9 @@ h1 {
 form {
     max-width: 600px;
     margin: auto;
-    background: white;
+    background: rgb(110, 193, 196);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -26,14 +26,30 @@ label {
 }
 
 input[type="text"],
+input[type="email"]{
+    width: 95%;
+}
+
+textarea {
+    width: 95%;
+    resize: none;
+
+}
+
+
+
+input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+ 
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
+    margin-right: 30px;
 }
+
+
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -48,11 +64,16 @@ button {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
+
+    transition: background-color 1s ease;
 }
 
+
+
 button:hover {
-    background-color: red;
+    background-color: rgb(45, 114, 141);
 }
+
 
 @media (max-width: 600px) {
     form {
